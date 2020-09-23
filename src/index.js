@@ -17,11 +17,13 @@ const styles = StyleSheet.create({
     },
 });
 
+console.tron.log('Hello Reactotron');
+
 export default function App() {
     return (
         <View style={styles.container}>
             <Text style={styles.welcome}>Welcome React</Text>
-            <Text style={styles.welcome}>teste 1</Text>
+            <Text style={styles.welcome}>teste 123</Text>
         </View>
     );
 }
